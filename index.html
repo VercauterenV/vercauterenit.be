@@ -208,10 +208,10 @@ h2 { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 4vw, 
 
 <div class="wrap">
   <div class="figures" role="list">
-    <div class="fig" role="listitem"><b>12 yrs</b><span data-i18n="f1">of Java &amp; Spring backend</span></div>
-    <div class="fig" role="listitem"><b>7 yrs</b><span data-i18n="f2">on payment systems at the National Bank of Belgium</span></div>
-    <div class="fig" role="listitem"><b>8 teams</b><span data-i18n="f3">served by the integration facade I maintain</span></div>
-    <div class="fig" role="listitem"><b>4 days</b><span data-i18n="f4">to migrate 5 projects to Spring Boot 4, zero incidents</span></div>
+    <div class="fig" role="listitem"><b data-i18n="f1n">12 yrs</b><span data-i18n="f1">of Java &amp; Spring backend</span></div>
+    <div class="fig" role="listitem"><b data-i18n="f2n">7 yrs</b><span data-i18n="f2">on payment systems at the National Bank of Belgium</span></div>
+    <div class="fig" role="listitem"><b data-i18n="f3n">8 teams</b><span data-i18n="f3">served by the integration facade I maintain</span></div>
+    <div class="fig" role="listitem"><b data-i18n="f4n">4 days</b><span data-i18n="f4">to migrate 5 projects to Spring Boot 4, zero incidents</span></div>
   </div>
 </div>
 
@@ -250,7 +250,7 @@ h2 { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 4vw, 
       <article class="service">
         <h3 data-i18n="sv6_t">AI-assisted development</h3>
         <p data-i18n="sv6_p">Daily use of Claude Code for code, tests and reviews, always with human verification before anything ships.</p>
-        <span class="tag">Claude Code · code review</span>
+        <span class="tag" data-i18n="sv6_tag">Claude Code · code review</span>
       </article>
     </div>
   </div>
@@ -258,7 +258,7 @@ h2 { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 4vw, 
 
 <section id="experience">
   <div class="wrap">
-    <p class="path">~/experience</p>
+    <p class="path" data-i18n="p_exp">~/experience</p>
     <h2 data-i18n="e_title">Experience</h2>
     <p class="intro" data-i18n="e_intro">From banking to the public sector, systems that other teams depend on.</p>
     <ol class="timeline" reversed>
@@ -303,7 +303,7 @@ h2 { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 4vw, 
 
 <section id="projects">
   <div class="wrap">
-    <p class="path">~/projects</p>
+    <p class="path" data-i18n="p_proj">~/projects</p>
     <h2 data-i18n="p_title">AI projects</h2>
     <p class="intro" data-i18n="p_intro">Two Java applications built around LLMs: one to understand the mechanics, one to industrialise them.</p>
     <div class="projects">
@@ -344,20 +344,20 @@ h2 { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 4vw, 
 
 <section id="skills">
   <div class="wrap">
-    <p class="path">~/skills</p>
+    <p class="path" data-i18n="p_skills">~/skills</p>
     <h2 data-i18n="k_title">Skills and training</h2>
     <div class="skills">
       <div class="skill-group"><h3>backend</h3><div class="chips"><span>Java 8–25</span><span>Spring Boot 4</span><span>Spring Security</span><span>Spring AMQP</span><span>Hibernate / JPA</span><span>REST</span><span>OpenAPI</span><span>Microservices</span></div></div>
-      <div class="skill-group"><h3>ai</h3><div class="chips ai"><span>Claude Code</span><span>Anthropic API</span><span>Spring AI</span><span>RAG</span><span>Embeddings</span><span>pgvector</span><span>Structured output</span></div></div>
-      <div class="skill-group"><h3>messaging &amp; data</h3><div class="chips"><span>RabbitMQ</span><span>IBM MQ</span><span>PostgreSQL</span><span>Oracle</span><span>DB2</span><span>Flyway</span></div></div>
-      <div class="skill-group"><h3>ci/cd &amp; cloud</h3><div class="chips"><span>Azure DevOps</span><span>OpenShift</span><span>Docker</span><span>Kubernetes</span><span>Maven</span><span>Gradle</span><span>Git</span></div></div>
-      <div class="skill-group"><h3>testing</h3><div class="chips"><span>JUnit</span><span>Cucumber</span><span>Testcontainers</span><span>WireMock</span></div></div>
+      <div class="skill-group"><h3 data-i18n="k_ai">ai</h3><div class="chips ai"><span>Claude Code</span><span>Anthropic API</span><span>Spring AI</span><span>RAG</span><span>Embeddings</span><span>pgvector</span><span>Structured output</span></div></div>
+      <div class="skill-group"><h3 data-i18n="k_msg">messaging &amp; data</h3><div class="chips"><span>RabbitMQ</span><span>IBM MQ</span><span>PostgreSQL</span><span>Oracle</span><span>DB2</span><span>Flyway</span></div></div>
+      <div class="skill-group"><h3 data-i18n="k_ci">ci/cd &amp; cloud</h3><div class="chips"><span>Azure DevOps</span><span>OpenShift</span><span>Docker</span><span>Kubernetes</span><span>Maven</span><span>Gradle</span><span>Git</span></div></div>
+      <div class="skill-group"><h3 data-i18n="k_test">testing</h3><div class="chips"><span>JUnit</span><span>Cucumber</span><span>Testcontainers</span><span>WireMock</span></div></div>
       <div class="skill-group"><h3 data-i18n="k_front">frontend (secondary)</h3><div class="chips"><span>Angular</span><span>React</span><span>TypeScript</span></div></div>
     </div>
     <div class="training">
       <div class="train"><b>Anthropic Academy</b><span>Claude 101 · Claude Code 101 · Claude Code in Action · 2026</span></div>
       <div class="train"><b>Devoxx Belgium</b><span data-i18n="t2">Java and AI conference · 2026</span></div>
-      <div class="train"><b data-i18n="t3_t">Bachelor in Business Computing</b><span>Institut Paul Lambin, Brussels · 2013</span></div>
+      <div class="train"><b data-i18n="t3_t">Bachelor in Business Computing</b><span data-i18n="t3_s">Institut Paul Lambin, Brussels · 2013</span></div>
     </div>
   </div>
 </section>
@@ -382,7 +382,7 @@ h2 { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 4vw, 
       <a href="CV_Vincent_Vercauteren.pdf" target="_blank" rel="noopener"><span data-i18n="c_cv" style="font:inherit;color:inherit">CV (PDF)</span> <span>CV_Vincent_Vercauteren.pdf</span></a>
     </div>
   </div>
-  <div class="wrap foot">© 2026 Vincent Vercauteren · Vercauteren IT Expertise SRL · Chaumont-Gistoux, Belgium</div>
+  <div class="wrap foot">© 2026 Vincent Vercauteren · Vercauteren IT Expertise SRL · Chaumont-Gistoux, <span data-i18n="country">Belgium</span></div>
 </footer>
 
 <script>
@@ -432,6 +432,11 @@ h2 { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 4vw, 
     t2: "Conférence Java et IA · 2026", t3_t: "Bachelier en informatique de gestion",
     c_title: "Parlons de votre projet",
     c_p: "Une mission backend, une migration à planifier, de l'IA à intégrer dans une application Java ? Écrivez-moi et voyons comment je peux vous aider.",
+    f1n: "12 ans", f2n: "7 ans", f3n: "8 équipes", f4n: "4 jours",
+    sv6_tag: "Claude Code · revue de code",
+    k_ai: "ia", k_msg: "messaging et données", k_ci: "ci/cd et cloud", k_test: "tests",
+    t3_s: "Institut Paul Lambin, Bruxelles · 2013",
+    p_exp: "~/parcours", p_proj: "~/projets", p_skills: "~/competences", country: "Belgique",
     copy: "Copier", copied: "Copié", c_mail: "Envoyer un e-mail", c_cv: "CV (PDF)"
   };
   var EN = {};
